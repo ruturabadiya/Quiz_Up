@@ -1,0 +1,107 @@
+.information{
+    margin-top: 10%;
+    margin-right: 22%;
+    width: 100%;
+}
+.rounded-pill{
+    margin-left: 2%;
+    margin-right: auto;
+    background-color: #ffffff;
+    width: 343px;
+}
+
+.btn-square-md {
+    width: 150px !important;
+    max-width: 100% !important;
+    max-height: 100% !important;
+    height: 100px !important;
+    text-align: center;
+    padding: 0px;
+    font-size:12px;
+    }
+    /* slider*/
+    #image{
+        -webkit-animation-name: flow;
+        -webkit-animation-duration: 1.3s;
+        animation-name: flow;
+        animation-duration: 1.5s;
+        }
+        
+        @-webkit-keyframes flow {
+        from {opacity: .3;}
+        to {opacity: 1;}
+        }
+        
+        / Standard syntax /
+        @keyframes flow {
+        from {opacity: .3;}
+        to {opacity: 1;}
+        }
+        #photo-view-container{
+        display: inline-block;
+        / background-color: #000; /
+        width: 590px;
+        text-align: center;
+        padding: 40px 10px 10px 10px;
+        /* border: 5px solid #222;
+        border-radius: 10px; */
+        }
+        #photo-display{
+        display: inline-block;
+        height: 300px;
+        width: 600px;
+        }
+        #selected-photo{
+        max-height:100%
+        
+        / max-width: 500px; /
+        }
+        #commentary{
+        color: #aaa;
+        }
+        #left{
+        float: left;
+        }
+        #right{
+        float: right;
+        }
+        #right,#left{
+        position: relative;
+        bottom: -45px;
+        cursor: pointer;
+        }
+        #photo-container-holder{
+        display: inline-block;
+        width: 90%;
+        overflow: hidden;
+        }
+        #photo-container{
+        display: inline-block;
+        height: 100px;
+        padding: 10px 0;
+        -webkit-transition: all 0.50s ease;
+        -moz-transition: all 0.50s ease;
+        -o-transition: all 0.50s ease;
+        transition: all 0.50s ease;
+        }
+        .photo-holder{
+        background-color: #888;
+        display: inline-block;
+        width: 100px;
+        height: 100px;
+        margin: 0 5px;
+        text-align: center;
+        vertical-align: middle;
+        overflow: hidden;
+        margin-top: 15px;
+        }
+        .photo-item{
+        cursor: pointer;
+        width:100%;
+        }
+
+@media only screen and (max-width: 1768px){
+    .rounded-pill{
+        width:342px;
+    }
+}
